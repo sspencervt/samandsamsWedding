@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("mountains-294111_1280.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-position-y: 500%;
+    background-position: center;
+    background-attachment: fixed;
+}
+img {
+    
+}
+#title {
+    font-size: 100px;
+}
+#greyvt {
+    height: 200px;
+    width: 200px;
+    padding-left: 100px;
+}
+h2 {
+    font-size: 50px;
+}
