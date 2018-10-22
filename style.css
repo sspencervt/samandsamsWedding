@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url("mountains-294111_1280.png");
+    /* background-image: url("mountains-294111_1280.png"); */
     background-size: 200px 200px;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
@@ -9,6 +9,8 @@ body {
     background-position-y: 500%;
     background-position: center;
     background-attachment: fixed;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 #menu {
     padding: 10px;
@@ -19,6 +21,7 @@ body {
     font-size: 50px;
     color: white;
 }
+
 #boatpic {
     display: block;
     margin-left: auto;
@@ -30,7 +33,7 @@ body {
 }
 #piccontainer {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
 }
