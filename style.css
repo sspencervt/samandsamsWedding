@@ -9,42 +9,102 @@ body {
     background-position-y: 500%;
     background-position: center;
     background-attachment: fixed;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 0;
 }
 #menu {
     padding: 10px;
-    background-color: rgba(100, 158, 180, 0.993);
+    background-color: rgba(100, 158, 180, 0.8);
     /* opacity: .3; */
 }
 #menuitem {
     font-size: 50px;
     color: white;
+    font-family: 'Amatic SC', cursive;
 }
-
+#menuitem:hover {
+    font-size: 47px;
+    text-decoration: none;
+    color: #EEF4ED;
+}
+#mainpage {
+    height: 110vh;
+    background-color: rgba(100, 158, 180, 0.2);
+}
 #boatpic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 340px;
     border-radius: 20px;
     box-shadow: 10px 10px 8px #888888;
 }
 #piccontainer {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
 }
 #title {
     font-size: 100px;
 }
+#location {
+    font-family: 'Amatic SC', cursive;
+}
 #greyvt {
     height: 200px;
     width: 200px;
     padding-left: 100px;
 }
-h2 {
-    font-size: 50px;
+#slopes {
+    height: 400px;
+    width: 550px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 2px #161B22;
+}
+#hotel {
+    height: 300px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #161B22;
+}
+#schedule {
+    height: 100vh;
+    background-color: #EBF5EE;
+    width: 100%;
+}
+#scheduletext {
+    padding-top: 80px;
+    width: 80vw;
+}
+#accommodations {
+    width: 100%;
+    background-color: #283044;
+}
+#accommodationstext {
+    width: 80vw;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#sugarbushlist {
+    align-items: center;
+    width: 20vw;
+    text-decoration: underline;
+}
+#downarrow {
+    height: 40px;
+    width: 40px;
+}
+#thingstodotext {
+    width: 80vw;
+    height: 100vh;
+    padding-top: 50px;
+}
+#thingstodo {
+    background-color: #EFD9CE;
+    width: 100%;
 }
