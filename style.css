@@ -65,8 +65,8 @@ body {
     box-shadow: 5px 5px 2px #161B22;
 }
 #hotel {
-    height: 300px;
-    width: 350px;
+    height: 270px;
+    width: 330px;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #161B22;
@@ -107,4 +107,12 @@ body {
 #thingstodo {
     background-color: #EFD9CE;
     width: 100%;
+}
+.hotelpiccont {
+    display: flex;
+    justify-content: center;
+}
+.registry {
+    height: 100vh;
+    background-color: #7D869C;
 }
