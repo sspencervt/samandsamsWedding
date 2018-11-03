@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cormorant Upright', serif;
     /* background-image: url("mountains-294111_1280.png"); */
     background-size: 200px 200px;
     background-repeat: no-repeat;
@@ -11,6 +11,9 @@ body {
     background-attachment: fixed;
     margin: 0;
 }
+p {
+    font-size: 30px;
+}
 #menu {
     padding: 10px;
     background-color: rgba(100, 158, 180, 0.8);
@@ -19,7 +22,7 @@ body {
 #menuitem {
     font-size: 50px;
     color: white;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Upright', serif;
 }
 #menuitem:hover {
     font-size: 47px;
@@ -49,7 +52,7 @@ body {
     font-size: 100px;
 }
 #location {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Upright', serif;
 }
 #greyvt {
     height: 200px;
@@ -72,7 +75,7 @@ body {
     box-shadow: 3px 3px 3px #161B22;
 }
 #schedule {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #EBF5EE;
     width: 100%;
 }
@@ -115,4 +118,8 @@ body {
 .registry {
     height: 100vh;
     background-color: #7D869C;
+}
+#schedheader {
+    font-size: 60px;
+    padding-bottom: 20px;
 }
