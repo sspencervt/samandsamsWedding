@@ -14,6 +14,17 @@ body {
 p {
     font-size: 30px;
 }
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
 #menu {
     padding: 10px;
     background-color: rgba(100, 158, 180, 0.8);
@@ -30,7 +41,8 @@ p {
     color: #EEF4ED;
 }
 #mainpage {
-    height: 110vh;
+    padding-bottom: 20px;
+    /* height: 110vh; */
     background-color: rgba(100, 158, 180, 0.2);
 }
 #boatpic {
@@ -78,6 +90,7 @@ p {
     /* height: 100vh; */
     background-color: #EBF5EE;
     width: 100%;
+    padding-bottom: 20px;
 }
 #scheduletext {
     padding-top: 80px;
@@ -104,8 +117,9 @@ p {
 }
 #thingstodotext {
     width: 80vw;
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 #thingstodo {
     background-color: #EFD9CE;
@@ -120,6 +134,6 @@ p {
     background-color: #7D869C;
 }
 #schedheader {
-    font-size: 60px;
+    font-size: 70px;
     padding-bottom: 20px;
 }
