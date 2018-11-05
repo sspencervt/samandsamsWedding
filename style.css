@@ -132,8 +132,17 @@ h4 {
 .registry {
     height: 100vh;
     background-color: #7D869C;
+    padding-top: 20px;
+    width: 100%;
 }
 #schedheader {
     font-size: 70px;
     padding-bottom: 20px;
+}
+#registryimage {
+    height: 200px;
+    width: 300px;
+}
+.regimg {
+    justify-content: center;
 }
