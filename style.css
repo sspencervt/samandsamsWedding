@@ -146,8 +146,9 @@ h4 {
     border-radius: 10px;
 }
 #registryimage:hover {
-    height: 220px;
-    width: 330px;
+    height: 190px;
+    width: 280px;
+    transform: skew(5deg);
 }
 .regimg {
     justify-content: center;
@@ -158,7 +159,17 @@ h4 {
 #todo {
     text-decoration: none;
     color:inherit;
+    transform-style: preserve-3d;
 }
 #todo:hover {
-    font-size: 20px;
+	background: rgb(255, 255, 255);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+#bushlink {
+    margin: 100px;
+}
+#thingstodolist {
+    margin: 50px;
 }
