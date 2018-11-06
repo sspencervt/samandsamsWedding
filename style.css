@@ -31,6 +31,7 @@ h4 {
     background-color: rgba(100, 158, 180, 0.8);
     /* opacity: .3; */
     margin-right: 0;
+    box-shadow: 0 8px 6px rgb(192, 192, 192);
 }
 #menuitem {
     font-size: 50px;
@@ -54,7 +55,7 @@ h4 {
     height: 400px;
     width: 340px;
     border-radius: 20px;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 5px 5px 4px #888888;
 }
 #piccontainer {
     width: 100%;
