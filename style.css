@@ -35,13 +35,15 @@ h4 {
 }
 #menuitem {
     font-size: 50px;
+    text-shadow: 2px 2px rgb(138, 138, 138);
     color: white;
     font-family: 'Cormorant Upright', serif;
+    transition: 0.5s;
 }
 #menuitem:hover {
     font-size: 47px;
     text-decoration: none;
-    color: #EEF4ED;
+    color: rgb(177, 177, 177);
 }
 #mainpage {
     padding-bottom: 20px;
@@ -160,7 +162,7 @@ h4 {
 #todo {
     text-decoration: none;
     color:inherit;
-    transform-style: preserve-3d;
+    transition: 0.5s;
 }
 #todo:hover {
 	background: rgb(255, 255, 255);
