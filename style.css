@@ -96,6 +96,7 @@ h4 {
     background-color: #EBF5EE;
     /* width: 100%; */
     padding-bottom: 20px;
+    box-shadow: 0 8px 6px rgb(192, 192, 192);
 }
 #scheduletext {
     padding-top: 80px;
@@ -175,4 +176,12 @@ h4 {
 }
 #thingstodolist {
     margin: 50px;
+}
+.roomlink {
+    font-size: 30px;
+    transition: color 0.5s ease
+}
+.roomlink:hover {
+    text-decoration: none;
+    color: white;
 }
