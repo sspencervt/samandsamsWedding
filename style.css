@@ -28,7 +28,7 @@ h4 {
 }
 #menu {
     padding: 10px;
-    background-color: rgba(100, 158, 180, 0.8);
+    background-color: white;
     /* opacity: .3; */
     margin-right: 0;
     box-shadow: 0 8px 6px rgb(192, 192, 192);
@@ -36,19 +36,19 @@ h4 {
 #menuitem {
     font-size: 50px;
     text-shadow: 2px 2px rgb(138, 138, 138);
-    color: white;
+    color: black;
     font-family: 'Cormorant Upright', serif;
     transition: 0.5s;
 }
 #menuitem:hover {
     font-size: 47px;
     text-decoration: none;
-    color: rgb(177, 177, 177);
+    color: black;
 }
 #mainpage {
     padding-bottom: 20px;
     /* height: 110vh; */
-    background-color: rgba(100, 158, 180, 0.2);
+    background-color: white;
 }
 #boatpic {
     display: block;
@@ -93,7 +93,7 @@ h4 {
 }
 #schedule {
     /* height: 100vh; */
-    background-color: #EBF5EE;
+    background-color: white;
     /* width: 100%; */
     padding-bottom: 20px;
     box-shadow: 0 8px 6px rgb(192, 192, 192);
@@ -104,11 +104,11 @@ h4 {
 }
 #accommodations {
     /* width: 100%; */
-    background-color: #283044;
+    background-color: white;
 }
 #accommodationstext {
     width: 80vw;
-    color: white;
+    color: black;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -127,7 +127,7 @@ h4 {
     padding-bottom: 20px;
 }
 #thingstodo {
-    background-color: #EFD9CE;
+    background-color: white;
     /* width: 100%; */
 }
 .hotelpiccont {
@@ -136,7 +136,7 @@ h4 {
 }
 .registry {
     height: 100vh;
-    background-color: #7D869C;
+    background-color: white;
     padding-top: 20px;
     /* width: 100%; */
 }
@@ -167,7 +167,7 @@ h4 {
 }
 #todo:hover {
 	background: rgb(255, 255, 255);
-	color: #3a7999;
+	color: black;
 	box-shadow: inset 0 0 0 3px #3a7999;
 }
 
