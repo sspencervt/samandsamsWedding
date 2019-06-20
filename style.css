@@ -189,3 +189,9 @@ h4 {
     text-decoration: none;
     color: white;
 }
+
+.myregistrylink {
+    padding: 50px;
+    font-size: 80px;
+    font-weight: bold;
+}
